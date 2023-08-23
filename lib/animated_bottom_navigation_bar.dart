@@ -311,7 +311,7 @@ class _AnimatedBottomNavigationBarState
   void didUpdateWidget(AnimatedBottomNavigationBar oldWidget) {
     super.didUpdateWidget(oldWidget);
     if (widget.activeIndex != oldWidget.activeIndex) {
-      _startBubbleAnimation();
+      // _startBubbleAnimation();
     }
   }
 
